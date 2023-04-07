@@ -4,6 +4,11 @@
   "private": true,
   "homepage": "http://aabdalghani.github.io/Category-with-Header",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/base": "^5.0.0-alpha.124",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.11.16",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",

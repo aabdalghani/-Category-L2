@@ -5,8 +5,7 @@ import community from "../images/community.png"
 import mining from "../images/mining.png"
 import construction from "../images/construction.png"
 import cleaning from "../images/cleaning.png"
-import emergency from "../images/emergency.png"
-import education from "../images/education.png"
+
 export default function Services() {
   return (
     <div className="content">
@@ -105,38 +104,7 @@ export default function Services() {
               
             </div>
             </Link>
-            <Link to="/emergency" className='marketplace'>
-            <div>
-              
-              <div className="image" >
-                
-                <img style={{ width: 50, height: 60 }} src={emergency} alt="marketplace" />
-                
-              </div>
-              
-              <div className="name">
-                <h4>Emergency</h4>
-                {/* <BsThreeDots /> */}
-              </div> 
-              
-            </div>
-            </Link>
-            <Link to="/education" className='marketplace'>
-            <div>
-              
-              <div className="image" >
-                
-                <img style={{ width: 50, height: 60 }} src={education} alt="marketplace" />
-                
-              </div>
-              
-              <div className="name">
-                <h4>Education</h4>
-                {/* <BsThreeDots /> */}
-              </div> 
-              
-            </div>
-            </Link>
+            
             
       </div>
       </div>
